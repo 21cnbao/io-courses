@@ -19,3 +19,5 @@ http://mp.weixin.qq.com/s/Xp4-r-a2iWpDx_yntGIGOQ
 # 5. debugfs, blkcat, dd
 ### 按照视频提示
 
+# 6. bio生命周期
+http://mp.weixin.qq.com/s/aghkAAv1hxR9sMce3Z69Zw
