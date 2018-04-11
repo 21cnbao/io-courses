@@ -1,5 +1,5 @@
 # 1. aio例子
-    $ gcc aio.c -laio
+    $ gcc aio.c -laio
     $ ./a.out epoll.c
 
 # 2. libevent例子
