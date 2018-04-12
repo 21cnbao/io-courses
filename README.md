@@ -34,3 +34,8 @@ http://mp.weixin.qq.com/s/aghkAAv1hxR9sMce3Z69Zw
     $ cd mnt/
     $ ls
     hello
+### 之后我们查看mount情况：
+    $ mount
+    /dev/sda1 on / type ext4 (rw,errors=remount-ro)
+    ...
+    a.out on /home/baohua/develop/training/io-courses/fuse-hello/mnt type fuse.a.out (rw,nosuid,nodev,user=baohua)
