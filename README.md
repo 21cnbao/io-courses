@@ -25,3 +25,12 @@ http://mp.weixin.qq.com/s/aghkAAv1hxR9sMce3Z69Zw
     $ sudo ionice -c 2 -n 7 cat /dev/sda > /dev/null &
     $ sudo iotop
 ### 对比第1个cat和第2个cat的速度差异
+
+# 8. fuse例子
+    $ sudo apt-get install libfuse-dev
+    $ gcc -D_FILE_OFFSET_BITS=64 hello.c  -lfuse
+    $ mkdir mnt
+    $ ./a.out mnt
+    $ cd mnt/
+    $ ls
+    hello
