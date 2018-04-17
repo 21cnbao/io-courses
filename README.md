@@ -45,7 +45,7 @@ http://mp.weixin.qq.com/s/aghkAAv1hxR9sMce3Z69Zw
 
     #dd if=image bs=4096 skip=18 | hexdump -C -n 32
 
- ###vim二进制编辑：
+ ### vim二进制编辑：
      %!xxd -g 1
      %!xxd -r  
  
