@@ -39,3 +39,13 @@ http://mp.weixin.qq.com/s/aghkAAv1hxR9sMce3Z69Zw
     /dev/sda1 on / type ext4 (rw,errors=remount-ro)
     ...
     a.out on /home/baohua/develop/training/io-courses/fuse-hello/mnt type fuse.a.out (rw,nosuid,nodev,user=baohua)
+    
+ # 9. 让文件系统不一致
+    #dumpe2fs
+
+    #dd if=image bs=4096 skip=18 | hexdump -C -n 32
+
+ ###vim二进制编辑：
+     %!xxd -g 1
+     %!xxd -r  
+ 
